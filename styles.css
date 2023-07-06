@@ -1,12 +1,12 @@
 body {
-  background-color: #3c3c42;
+  background-color: #001533;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #3c3c42;
+  background-color: #001533;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -27,18 +27,29 @@ header {
 }
 
 .member {
+  display: flex;
   width: 300px;
   text-align: center;
   padding: 20px;
   margin: 10px;
-  background: rgb(245, 241, 241);
+  background: rgb(56, 55, 55);
   border-radius: 10px;
   backdrop-filter: blur(7px);
   border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(41, 106, 228, 0.37);
   -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, alpha);
   -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, alpha);
 }
+
+.member-text p{
+  color: #e7e4e4;
+}
+
+.member-text img{
+  width: 25px;
+  height: auto;
+}
+
 
 img {
   width: 100px;
@@ -48,11 +59,12 @@ img {
 
 h2 {
   margin: 10px 0;
+  color: #fff;
 }
 
 a {
   display: block;
-  margin-top: 10px;
+  margin-top: 20px;
   color: #007bff;
   text-decoration: none;
 }
@@ -63,9 +75,9 @@ a:hover {
 
 /* Estilo para o footer */
 footer {
-  padding: 20px;
+  padding: 10px;
   color: #555;
-  background: rgb(245, 241, 241);
+  background: rgb(56, 55, 55);
   border-radius: 10px 10px 0px 0px;
   backdrop-filter: blur(7px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -76,14 +88,15 @@ footer {
 
 /* Estilo para as colunas dentro do footer */
 footer .col-sm-6 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 /* Estilo para os títulos nas colunas */
 footer h3 {
-  color: #333;
+  color: #fff;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 /* Estilo para os parágrafos nas colunas */
@@ -91,13 +104,14 @@ footer p {
   font-size: 14px;
   line-height: 1.5;
   word-wrap: break-word;
+  color: #fff;
 }
 
 /* Estilo para a barra inferior */
 footer .bottom-bar {
   color: #fff;
   padding: 10px;
-  background: #3c3c42;
+  background: #29292b;
   border-radius: 10px;
   backdrop-filter: blur(7px);
   border: 1px solid rgba(255, 255, 255, 0.18);
