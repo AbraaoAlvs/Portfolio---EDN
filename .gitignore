@@ -1,0 +1,9 @@
+# Arquivos de imagem
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# Arquivos PDF
+*.pdf
