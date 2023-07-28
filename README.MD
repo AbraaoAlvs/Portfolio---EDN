@@ -22,6 +22,8 @@ O projeto utiliza os seguintes serviços de nuvem:
 - **AWS Certificate Manager:** O Certificado SSL fornecido pelo AWS Certificate Manager é utilizado para habilitar o acesso seguro ao site através do protocolo HTTPS.
 - **Route 53:** O Route 53 é utilizado como serviço de DNS para associar o domínio `edntcc.cloud` ao bucket S3 e ao CloudFront.
 
+<img src="arqedntcccloud.png" alt="esquema arquitetura cloud">
+
 ## Estrutura do Projeto
 
 O projeto possui a seguinte estrutura de arquivos:
